@@ -290,7 +290,7 @@ module pcileech_fifo #(
             rw[200]     <= 1'b1;                        // +019: PCIE CORE RESET
             rw[201]     <= 1'b0;                        //       PCIE SUBSYSTEM RESET
             rw[202]     <= 1'b1;                        //       CFGTLP PROCESSING ENABLE
-            rw[203]     <= 1'b1;                        //       CFGTLP ZERO DATA
+            rw[203]     <= 1'b0;                        //       CFGTLP ZERO DATA
             rw[204]     <= 1'b1;                        //       CFGTLP FILTER TLP FROM USER
             rw[205]     <= 1'b1;                        //       PCIE BAR PIO ON-BOARD PROCESSING ENABLE
             rw[206]     <= 1'b0;                        //       CFGTLP PCIE WRITE ENABLE

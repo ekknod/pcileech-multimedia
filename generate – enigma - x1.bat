@@ -1,1 +1,1 @@
-C:\Xilinx\Vivado\2023.2\bin\vivado -source vivado_generate_project_enigma_x1.tcl -notrace -nolog -nojournal
+C:\Xilinx\Vivado\2024.1\bin\vivado -source vivado_generate_project_enigma_x1.tcl -notrace -nolog -nojournal
